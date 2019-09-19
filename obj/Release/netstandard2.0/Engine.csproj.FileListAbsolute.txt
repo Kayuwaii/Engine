@@ -1,0 +1,12 @@
+D:\Documentos\Proyectos VS\Engine\bin\Release\netstandard2.0\Engine.deps.json
+D:\Documentos\Proyectos VS\Engine\bin\Release\netstandard2.0\Engine.dll
+D:\Documentos\Proyectos VS\Engine\bin\Release\netstandard2.0\Engine.pdb
+D:\Documentos\Proyectos VS\Engine\obj\Release\netstandard2.0\Engine.csprojAssemblyReference.cache
+D:\Documentos\Proyectos VS\Engine\obj\Release\netstandard2.0\Engine.AssemblyInfoInputs.cache
+D:\Documentos\Proyectos VS\Engine\obj\Release\netstandard2.0\Engine.AssemblyInfo.cs
+D:\Documentos\Proyectos VS\Engine\obj\Release\netstandard2.0\Engine.dll
+D:\Documentos\Proyectos VS\Engine\obj\Release\netstandard2.0\Engine.pdb
+D:\Documentos\Proyectos VS\Engine\bin\Release\netstandard2.0\Data\amazon_cells_labelled.txt
+D:\Documentos\Proyectos VS\Engine\bin\Release\netstandard2.0\Data\imdb_labelled.txt
+D:\Documentos\Proyectos VS\Engine\bin\Release\netstandard2.0\Data\readme.txt
+D:\Documentos\Proyectos VS\Engine\bin\Release\netstandard2.0\Data\yelp_labelled.txt

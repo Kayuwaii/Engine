@@ -1,0 +1,117 @@
+\hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket}{}\section{Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket Class Reference}
+\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket}\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+
+
+Basic \mbox{\hyperlink{namespace_engine_1_1_advanced_1_1_t_c_p}{T\+CP}} \char`\"{}\+Server\char`\"{} class.  
+
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_client}{Client}}
+\item 
+class \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_server_status}{Server\+Status}}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+delegate void \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a5ef0e8ba1403714516d655edff0c24d6}{Client\+Connected}} (\mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_client}{Client}} sender)
+\item 
+void \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a8bb6a6abd6f22fb18f05e9c182ad1431}{Set\+M\+A\+X\+\_\+\+C\+O\+N\+N\+E\+C\+T\+I\+O\+NS}} (int value)
+\item 
+\mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a9fe683c88657977ed3f83e97615fd4fe}{Async\+Server\+Socket}} (int port)
+\item 
+void \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a958fcabdd5b6883034f0e9ac513fba36}{Start}} ()
+\item 
+void \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_acbb4be50434a8cad095b091d821fc451}{Stop}} ()
+\item 
+\mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_server_status}{Server\+Status}} \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a0000666d419ca4cbe5b1b16073f66d25}{Get\+Status}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a6018856640fe917e6e5836bcb05eb70b}{C\+U\+R\+R\+E\+N\+T\+\_\+\+C\+O\+N\+N\+E\+C\+T\+I\+O\+NS}} = 0
+\item 
+List$<$ \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_client}{Client}} $>$ \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_ae5f3da273e94027a18d24f93ed66d749}{Clients}}
+\end{DoxyCompactItemize}
+\subsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a5ef0e8ba1403714516d655edff0c24d6}{Client\+Connected}} \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a4ecb7de8eaee268deadc0b2a921daa8d}{On\+Client\+Connected}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Basic \mbox{\hyperlink{namespace_engine_1_1_advanced_1_1_t_c_p}{T\+CP}} \char`\"{}\+Server\char`\"{} class. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a9fe683c88657977ed3f83e97615fd4fe}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a9fe683c88657977ed3f83e97615fd4fe}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!AsyncServerSocket@{AsyncServerSocket}}
+\index{AsyncServerSocket@{AsyncServerSocket}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{AsyncServerSocket()}{AsyncServerSocket()}}
+{\footnotesize\ttfamily Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+Async\+Server\+Socket (\begin{DoxyParamCaption}\item[{int}]{port }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a5ef0e8ba1403714516d655edff0c24d6}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a5ef0e8ba1403714516d655edff0c24d6}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!ClientConnected@{ClientConnected}}
+\index{ClientConnected@{ClientConnected}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{ClientConnected()}{ClientConnected()}}
+{\footnotesize\ttfamily delegate void Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+Client\+Connected (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_client}{Client}}}]{sender }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a0000666d419ca4cbe5b1b16073f66d25}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a0000666d419ca4cbe5b1b16073f66d25}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!GetStatus@{GetStatus}}
+\index{GetStatus@{GetStatus}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{GetStatus()}{GetStatus()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_server_status}{Server\+Status}} Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+Get\+Status (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a8bb6a6abd6f22fb18f05e9c182ad1431}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a8bb6a6abd6f22fb18f05e9c182ad1431}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!SetMAX\_CONNECTIONS@{SetMAX\_CONNECTIONS}}
+\index{SetMAX\_CONNECTIONS@{SetMAX\_CONNECTIONS}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{SetMAX\_CONNECTIONS()}{SetMAX\_CONNECTIONS()}}
+{\footnotesize\ttfamily void Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+Set\+M\+A\+X\+\_\+\+C\+O\+N\+N\+E\+C\+T\+I\+O\+NS (\begin{DoxyParamCaption}\item[{int}]{value }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a958fcabdd5b6883034f0e9ac513fba36}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a958fcabdd5b6883034f0e9ac513fba36}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!Start@{Start}}
+\index{Start@{Start}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_acbb4be50434a8cad095b091d821fc451}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_acbb4be50434a8cad095b091d821fc451}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!Stop@{Stop}}
+\index{Stop@{Stop}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{Stop()}{Stop()}}
+{\footnotesize\ttfamily void Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+Stop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_ae5f3da273e94027a18d24f93ed66d749}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_ae5f3da273e94027a18d24f93ed66d749}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!Clients@{Clients}}
+\index{Clients@{Clients}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{Clients}{Clients}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_1_1_client}{Client}}$>$ Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+Clients}
+
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a6018856640fe917e6e5836bcb05eb70b}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a6018856640fe917e6e5836bcb05eb70b}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!CURRENT\_CONNECTIONS@{CURRENT\_CONNECTIONS}}
+\index{CURRENT\_CONNECTIONS@{CURRENT\_CONNECTIONS}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{CURRENT\_CONNECTIONS}{CURRENT\_CONNECTIONS}}
+{\footnotesize\ttfamily int Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+C\+U\+R\+R\+E\+N\+T\+\_\+\+C\+O\+N\+N\+E\+C\+T\+I\+O\+NS = 0}
+
+
+
+\subsection{Event Documentation}
+\mbox{\Hypertarget{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a4ecb7de8eaee268deadc0b2a921daa8d}\label{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a4ecb7de8eaee268deadc0b2a921daa8d}} 
+\index{Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}!OnClientConnected@{OnClientConnected}}
+\index{OnClientConnected@{OnClientConnected}!Engine.Advanced.TCP.AsyncServerSocket@{Engine.Advanced.TCP.AsyncServerSocket}}
+\subsubsection{\texorpdfstring{OnClientConnected}{OnClientConnected}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_engine_1_1_advanced_1_1_t_c_p_1_1_async_server_socket_a5ef0e8ba1403714516d655edff0c24d6}{Client\+Connected}} Engine.\+Advanced.\+T\+C\+P.\+Async\+Server\+Socket.\+On\+Client\+Connected}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Documentos/\+Proyectos V\+S/\+Engine/\mbox{\hyperlink{_async_server_socket_8cs}{Async\+Server\+Socket.\+cs}}\end{DoxyCompactItemize}

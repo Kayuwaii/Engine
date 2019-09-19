@@ -1,0 +1,244 @@
+\begin{theindex}
+
+  \item {\_client}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {AsyncClientSocket}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{11}
+  \item {AsyncServerSocket}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Client}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{16}
+  \item {ClientConnected}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{14}
+  \item {Clients}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{15}
+  \item {ConnectionClosed}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{16}
+  \item {CURRENT\_CONNECTIONS}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{15}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {D:/Documentos/Proyectos VS/Engine/AsyncClientSocket.cs}, 
+		\hyperpage{27}
+  \item {D:/Documentos/Proyectos VS/Engine/AsyncServerSocket.cs}, 
+		\hyperpage{27}
+  \item {D:/Documentos/Proyectos VS/Engine/CommandLine.cs}, 
+		\hyperpage{28}
+  \item {D:/Documentos/Proyectos VS/Engine/DB.cs}, \hyperpage{28}
+  \item {D:/Documentos/Proyectos VS/Engine/Extended.cs}, \hyperpage{28}
+  \item {D:/Documentos/Proyectos VS/Engine/General.cs}, \hyperpage{28}
+  \item {D:/Documentos/Proyectos VS/Engine/SentimentAnalyzer.cs}, 
+		\hyperpage{29}
+  \item {D:/Documentos/Proyectos VS/Engine/SentimentData.cs}, 
+		\hyperpage{29}
+  \item {DB}
+    \subitem {Engine.Advanced.DB}, \hyperpage{18}
+  \item {Dispose}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{12}
+
+  \indexspace
+
+  \item {Engine}, \hyperpage{9}
+  \item {Engine.Advanced}, \hyperpage{9}
+  \item {Engine.Advanced.DB}, \hyperpage{17}
+    \subitem {DB}, \hyperpage{18}
+    \subitem {ExecuteStoredProcedure}, \hyperpage{18}
+    \subitem {OpenConnection}, \hyperpage{19}
+    \subitem {Parameters}, \hyperpage{19}
+  \item {Engine.Advanced.DB.IncorrectLoginException}, \hyperpage{19}
+    \subitem {Message}, \hyperpage{19}
+  \item {Engine.Advanced.DB.ServerUnavaliableException}, \hyperpage{24}
+    \subitem {Message}, \hyperpage{25}
+  \item {Engine.Advanced.ML}, \hyperpage{9}
+  \item {Engine.Advanced.ML.NPL}, \hyperpage{10}
+  \item {Engine.Advanced.ML.NPL.SentimentAnalyzer}, \hyperpage{20}
+    \subitem {LoadData}, \hyperpage{21}
+    \subitem {SentimentAnalyzer}, \hyperpage{20}
+  \item {Engine.Advanced.ML.NPL.SentimentData}, \hyperpage{21}
+    \subitem {Sentiment}, \hyperpage{21}
+    \subitem {SentimentText}, \hyperpage{21}
+  \item {Engine.Advanced.ML.NPL.SentimentPrediction}, \hyperpage{22}
+    \subitem {Prediction}, \hyperpage{22}
+    \subitem {Probability}, \hyperpage{22}
+    \subitem {Score}, \hyperpage{22}
+  \item {Engine.Advanced.TCP}, \hyperpage{10}
+  \item {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{11}
+    \subitem {AsyncClientSocket}, \hyperpage{11}
+    \subitem {Dispose}, \hyperpage{12}
+    \subitem {MessageRecieved}, \hyperpage{12}
+    \subitem {OnMessageRecieved}, \hyperpage{13}
+    \subitem {OnServerFull}, \hyperpage{13}
+    \subitem {OnServerWarning}, \hyperpage{13}
+    \subitem {SendMessage}, \hyperpage{12}
+    \subitem {ServerFull}, \hyperpage{12}
+    \subitem {ServerWarning}, \hyperpage{12}
+    \subitem {Start}, \hyperpage{12}
+  \item {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{13}
+    \subitem {AsyncServerSocket}, \hyperpage{14}
+    \subitem {ClientConnected}, \hyperpage{14}
+    \subitem {Clients}, \hyperpage{15}
+    \subitem {CURRENT\_CONNECTIONS}, \hyperpage{15}
+    \subitem {GetStatus}, \hyperpage{14}
+    \subitem {OnClientConnected}, \hyperpage{15}
+    \subitem {SetMAX\_CONNECTIONS}, \hyperpage{14}
+    \subitem {Start}, \hyperpage{14}
+    \subitem {Stop}, \hyperpage{15}
+  \item {Engine.Advanced.TCP.AsyncServerSocket.Client}, \hyperpage{15}
+    \subitem {\_client}, \hyperpage{17}
+    \subitem {Client}, \hyperpage{16}
+    \subitem {ConnectionClosed}, \hyperpage{16}
+    \subitem {ID}, \hyperpage{17}
+    \subitem {MessageRecieved}, \hyperpage{16}
+    \subitem {OnConnectionClosed}, \hyperpage{17}
+    \subitem {OnMessageRecieved}, \hyperpage{17}
+    \subitem {SendMessage}, \hyperpage{16}
+    \subitem {Start}, \hyperpage{16}
+  \item {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{23}
+    \subitem {CURRENT\_CONNECTIONS}, \hyperpage{23}
+    \subitem {Full}, \hyperpage{23}
+    \subitem {MAX\_CONNECTIONS}, \hyperpage{24}
+    \subitem {Running}, \hyperpage{24}
+    \subitem {ServerStatus}, \hyperpage{23}
+    \subitem {TimeRunning}, \hyperpage{24}
+    \subitem {USAGE\_PERCENT}, \hyperpage{24}
+    \subitem {Warning}, \hyperpage{24}
+  \item {Engine.Base}, \hyperpage{10}
+  \item {ExecuteStoredProcedure}
+    \subitem {Engine.Advanced.DB}, \hyperpage{18}
+
+  \indexspace
+
+  \item {Full}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {GetStatus}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{14}
+
+  \indexspace
+
+  \item {ID}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {LoadData}
+    \subitem {Engine.Advanced.ML.NPL.SentimentAnalyzer}, \hyperpage{21}
+
+  \indexspace
+
+  \item {MAX\_CONNECTIONS}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{24}
+  \item {Message}
+    \subitem {Engine.Advanced.DB.IncorrectLoginException}, 
+		\hyperpage{19}
+    \subitem {Engine.Advanced.DB.ServerUnavaliableException}, 
+		\hyperpage{25}
+  \item {MessageRecieved}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{12}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{16}
+
+  \indexspace
+
+  \item {OnClientConnected}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{15}
+  \item {OnConnectionClosed}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{17}
+  \item {OnMessageRecieved}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{13}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{17}
+  \item {OnServerFull}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{13}
+  \item {OnServerWarning}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{13}
+  \item {OpenConnection}
+    \subitem {Engine.Advanced.DB}, \hyperpage{19}
+
+  \indexspace
+
+  \item {Parameters}
+    \subitem {Engine.Advanced.DB}, \hyperpage{19}
+  \item {Prediction}
+    \subitem {Engine.Advanced.ML.NPL.SentimentPrediction}, 
+		\hyperpage{22}
+  \item {Probability}
+    \subitem {Engine.Advanced.ML.NPL.SentimentPrediction}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item {Running}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {Score}
+    \subitem {Engine.Advanced.ML.NPL.SentimentPrediction}, 
+		\hyperpage{22}
+  \item {SendMessage}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{12}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{16}
+  \item {Sentiment}
+    \subitem {Engine.Advanced.ML.NPL.SentimentData}, \hyperpage{21}
+  \item {SentimentAnalyzer}
+    \subitem {Engine.Advanced.ML.NPL.SentimentAnalyzer}, \hyperpage{20}
+  \item {SentimentText}
+    \subitem {Engine.Advanced.ML.NPL.SentimentData}, \hyperpage{21}
+  \item {ServerFull}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{12}
+  \item {ServerStatus}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{23}
+  \item {ServerWarning}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{12}
+  \item {SetMAX\_CONNECTIONS}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{14}
+  \item {Start}
+    \subitem {Engine.Advanced.TCP.AsyncClientSocket}, \hyperpage{12}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{14}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.Client}, 
+		\hyperpage{16}
+  \item {Stop}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket}, \hyperpage{15}
+
+  \indexspace
+
+  \item {TimeRunning}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {USAGE\_PERCENT}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {Warning}
+    \subitem {Engine.Advanced.TCP.AsyncServerSocket.ServerStatus}, 
+		\hyperpage{24}
+
+\end{theindex}
