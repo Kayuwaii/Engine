@@ -37,7 +37,7 @@ namespace Engine
             /// <param name="lowerLt">Lower limit of the range.</param>
             /// <param name="higherLt">Higher limit of the range.</param>
             /// <returns>A random number.</returns>
-            public static int Random(int lowerLt, int higherLt)
+            public static double Random(int lowerLt, int higherLt)
             {
                 byte[] randomNumber = new byte[1];
 
@@ -53,9 +53,9 @@ namespace Engine
                 // We need to add one to the range, to allow for the rounding done with Math.Floor
                 int range = higherLt - lowerLt + 1;
 
-                double randomValueInRange = Math.Floor(multiplier * range);
+                double randomValueInRange = (multiplier * range);
 
-                return (int)(lowerLt + randomValueInRange);
+                return (lowerLt + randomValueInRange);
             }
 
             /// <summary>
