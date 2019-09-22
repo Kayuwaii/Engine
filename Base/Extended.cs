@@ -50,6 +50,16 @@ namespace Engine
             {
                 return (value & 1) == 0; //Bitwise AND. Checking lowest order bit. If it's 1 it's odd.
             }
+
+            /// <summary>
+            /// Wraps the string in the ANSI Color Code for a  teal-ish color.
+            /// </summary>
+            /// <param name="input">String to Colorize</param>
+            /// <returns>The string wrapped in ANSI code.</returns>
+            public static string Teal(this string input)
+            {
+                return ("\u001b[36m" + input + "\u001b[0m");
+            }
         }
     }
 }
