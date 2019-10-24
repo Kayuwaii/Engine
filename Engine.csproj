@@ -25,4 +25,10 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Base\Winforms\MetroWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

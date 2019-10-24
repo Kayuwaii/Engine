@@ -31,9 +31,9 @@ namespace Engine
             private static readonly RNGCryptoServiceProvider _generator = new RNGCryptoServiceProvider();
 
             /// <summary>
-            /// Generates a random between a given range.
+            /// Generates a random double between a given range.
             /// </summary>
-            /// <remarks>Extracted from http://scottlilly.com/create-better-random-numbers-in-c/ </remarks>
+            /// <remarks>Extracted and modified from http://scottlilly.com/create-better-random-numbers-in-c/ </remarks>
             /// <param name="lowerLt">Lower limit of the range.</param>
             /// <param name="higherLt">Higher limit of the range.</param>
             /// <returns>A random number.</returns>
@@ -50,8 +50,8 @@ namespace Engine
                 // Otherwise, it's possible for it to be "1", which causes problems in our rounding.
                 double multiplier = Math.Max(0, (asciiValueOfRandomCharacter / 255d) - 0.00000000001d);
 
-                // We need to add one to the range, to allow for the rounding done with Math.Floor
-                int range = higherLt - lowerLt + 1;
+                //Get the range
+                int range = higherLt - lowerLt;
 
                 double randomValueInRange = (multiplier * range);
 
@@ -66,7 +66,7 @@ namespace Engine
             /// <returns></returns>
             public static double getPercent(double total, double value)
             {
-                return (value / total) * 100;
+                return (value / total) * 100d;
             }
         }
     }

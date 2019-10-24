@@ -10,8 +10,16 @@ namespace Engine
         /// </summary>
         public class DB
         {
+            /// <summary>
+            /// The database connection.
+            /// </summary>
             private MySqlConnection DB_CONNECTION;
+
+            /// <summary>
+            /// The server's Hostname or IP
+            /// </summary>
             private string DB_SERVER;
+
             private string DB_DATABASE;
             private string DB_USER;
             private string DB_PASSWORD;
