@@ -7,6 +7,9 @@ namespace Engine.Advanced.ML.NPL
         [LoadColumn(0)]
         public string SentimentText;
 
+        /// <summary>
+        /// Comment
+        /// </summary>
         [LoadColumn(1), ColumnName("Label")]
         public bool Sentiment;
     }
