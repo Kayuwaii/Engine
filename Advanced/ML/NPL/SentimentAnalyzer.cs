@@ -26,7 +26,8 @@ namespace Engine
                 ///
                 /// [1] https://docs.microsoft.com/en-us/dotnet/machine-learning/tutorials/sentiment-analysis#next-steps
                 /// </summary>
-                public class SentimentAnalyzer
+                /// <typeparam name="T1">A Type that inherits from <see cref="ISentimentData"/></typeparam>
+                public class SentimentAnalyzer<T1> where T1 : ISentimentData, new()
                 {
                     /// <summary>
                     /// Path to the dataset.
@@ -83,14 +84,14 @@ namespace Engine
                     /// <returns>The split training and testing dataset</returns>
                     public TrainTestData LoadDataset(double percentage)
                     {
-                        IDataView dataView = mlEnv.Data.LoadFromTextFile<SentimentData>(datasetPath, hasHeader: false);
+                        IDataView dataView = mlEnv.Data.LoadFromTextFile<T1>(datasetPath, hasHeader: false);
                         TrainTestData splitDataView = mlEnv.Data.TrainTestSplit(dataView, testFraction: percentage);
                         return splitDataView;
                     }
 
                     public void BuildAndTrainModel()
                     {
-                        var estimator = mlEnv.Transforms.Text.FeaturizeText(outputColumnName: "Features", inputColumnName: nameof(SentimentData.SentimentText)).Append(mlEnv.BinaryClassification.Trainers.SdcaLogisticRegression(labelColumnName: "Label", featureColumnName: "Features"));
+                        var estimator = mlEnv.Transforms.Text.FeaturizeText(outputColumnName: "Features", inputColumnName: nameof(ISentimentData.SentimentText)).Append(mlEnv.BinaryClassification.Trainers.SdcaLogisticRegression(labelColumnName: "Label", featureColumnName: "Features"));
                         mlModel = estimator.Fit(splitDataView.TrainSet);
                         try
                         {
@@ -123,8 +124,8 @@ namespace Engine
                     /// <returns>True if positive, flase if negative.</returns>
                     public (bool sentiment, double probablility, double score) CheckSingleSentiment(string sentence)
                     {
-                        PredictionEngine<SentimentData, SentimentPrediction> predictionFunction = mlEnv.Model.CreatePredictionEngine<SentimentData, SentimentPrediction>(mlModel);
-                        SentimentData sampleStatement = new SentimentData { SentimentText = sentence };
+                        PredictionEngine<T1, SentimentPrediction> predictionFunction = mlEnv.Model.CreatePredictionEngine<T1, SentimentPrediction>(mlModel);
+                        T1 sampleStatement = new T1 { SentimentText = sentence };
                         SentimentPrediction resultPrediction = predictionFunction.Predict(sampleStatement);
                         return (resultPrediction.Prediction, resultPrediction.Probability, resultPrediction.Score);
                     }

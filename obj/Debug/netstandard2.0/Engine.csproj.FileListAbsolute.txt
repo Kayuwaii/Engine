@@ -10,3 +10,15 @@ D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.AssemblyInfo.c
 D:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Engine.pdb
 D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.dll
 D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.pdb
+E:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Data\amazon_cells_labelled.txt
+E:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Data\imdb_labelled.txt
+E:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Data\readme.txt
+E:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Data\yelp_labelled.txt
+E:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Engine.deps.json
+E:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Engine.dll
+E:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Engine.pdb
+E:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.AssemblyInfoInputs.cache
+E:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.AssemblyInfo.cs
+E:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.dll
+E:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.pdb
+E:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Engine.csprojAssemblyReference.cache

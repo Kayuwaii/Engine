@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Engine
 {
@@ -59,6 +60,14 @@ namespace Engine
             public static string Teal(this string input)
             {
                 return ("\u001b[36m" + input + "\u001b[0m");
+            }
+
+            public static bool In<T>(this T item, params T[] items)
+            {
+                if (items == null)
+                    throw new ArgumentNullException("items");
+
+                return items.Contains(item);
             }
         }
     }
