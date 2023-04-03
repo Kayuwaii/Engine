@@ -1,9 +1,0 @@
-D:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Base.deps.json
-D:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Base.dll
-D:\Documentos\Proyectos VS\Engine\bin\Debug\netstandard2.0\Base.pdb
-D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Base.csprojAssemblyReference.cache
-D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Base.csproj.CoreCompileInputs.cache
-D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Base.AssemblyInfoInputs.cache
-D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Base.AssemblyInfo.cs
-D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Base.dll
-D:\Documentos\Proyectos VS\Engine\obj\Debug\netstandard2.0\Base.pdb

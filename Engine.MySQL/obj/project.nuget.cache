@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/NuIka9ZQxJTlxHny/ygn+PE1mfp+IptlgUHU1gkKZHjaoXsb3mSb5oVoYi/8rG21fr71Z+NW59U4fz30F4uZA==",
+  "success": true,
+  "projectFilePath": "Z:\\Repos\\Engine\\Engine.MySQL\\Engine.MySQL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex Coronas\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+  ],
+  "logs": []
+}
