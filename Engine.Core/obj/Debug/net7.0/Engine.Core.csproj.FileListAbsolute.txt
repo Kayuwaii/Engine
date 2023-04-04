@@ -1,0 +1,12 @@
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\Engine.Core.csproj.AssemblyReference.cache
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\Engine.Core.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\Engine.Core.AssemblyInfoInputs.cache
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\Engine.Core.AssemblyInfo.cs
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\Engine.Core.csproj.CoreCompileInputs.cache
+Z:\Repos\Engine\Engine.Core\bin\Debug\net7.0\Engine.Core.deps.json
+Z:\Repos\Engine\Engine.Core\bin\Debug\net7.0\Engine.Core.dll
+Z:\Repos\Engine\Engine.Core\bin\Debug\net7.0\Engine.Core.pdb
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\Engine.Core.dll
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\refint\Engine.Core.dll
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\Engine.Core.pdb
+Z:\Repos\Engine\Engine.Core\obj\Debug\net7.0\ref\Engine.Core.dll
