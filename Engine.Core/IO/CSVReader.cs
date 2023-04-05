@@ -1,4 +1,6 @@
 ﻿using Engine.Core.Utils;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Text;
 
 namespace Engine.Core.IO
 {
@@ -45,15 +47,23 @@ namespace Engine.Core.IO
             return objects.ToArray();
         }
 
-        #endregion Public Methods
+		public static T[] ReadCsv<T>(byte[] csvFile) where T : new()
+		{
+			string csvString = Encoding.UTF8.GetString(csvFile);
+			string[] lines = csvString.Split(csvString.GetNewlineSeparator()).Where(x => x != "").ToArray();
 
-        #region Private Methods
+            return ReadCsv<T>(lines);
+		}
 
-        /// <summary>
-        /// Removes special characters and empty lines
-        /// </summary>
-        /// <param name="csvLines"></param>
-        private static void CleanCSV(string[] csvLines)
+		#endregion Public Methods
+
+		#region Private Methods
+
+		/// <summary>
+		/// Removes special characters and empty lines
+		/// </summary>
+		/// <param name="csvLines"></param>
+		private static void CleanCSV(string[] csvLines)
         {
             for (int i = 0; i < csvLines.Length; i++)
             {
@@ -66,6 +76,8 @@ namespace Engine.Core.IO
             }
         }
 
-        #endregion Private Methods
-    }
+
+
+		#endregion Private Methods
+	}
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/NuIka9ZQxJTlxHny/ygn+PE1mfp+IptlgUHU1gkKZHjaoXsb3mSb5oVoYi/8rG21fr71Z+NW59U4fz30F4uZA==",
+  "dgSpecHash": "VesvPz/h3mLgp1Vska1O9UaaFF5vBkh90CV7ys5rgcKVEg01sRSk/Odhfmh6rhj5lvqZM22fS1hivvofq0uaxg==",
   "success": true,
-  "projectFilePath": "Z:\\Repos\\Engine\\Engine.MySQL\\Engine.MySQL.csproj",
+  "projectFilePath": "C:\\Users\\alex.coronas\\Documents\\Engine\\Engine.MySQL\\Engine.MySQL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alex Coronas\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
+    "C:\\Users\\alex.coronas\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Repos\\Engine\\Engine.Core\\Engine.Core.csproj": {}
+    "C:\\Users\\alex.coronas\\Documents\\Engine\\Engine.Core\\Engine.Core.csproj": {}
   },
   "projects": {
-    "Z:\\Repos\\Engine\\Engine.Core\\Engine.Core.csproj": {
+    "C:\\Users\\alex.coronas\\Documents\\Engine\\Engine.Core\\Engine.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Repos\\Engine\\Engine.Core\\Engine.Core.csproj",
+        "projectUniqueName": "C:\\Users\\alex.coronas\\Documents\\Engine\\Engine.Core\\Engine.Core.csproj",
         "projectName": "Engine.Core",
-        "projectPath": "Z:\\Repos\\Engine\\Engine.Core\\Engine.Core.csproj",
-        "packagesPath": "C:\\Users\\Alex Coronas\\.nuget\\packages\\",
-        "outputPath": "Z:\\Repos\\Engine\\Engine.Core\\obj\\",
+        "projectPath": "C:\\Users\\alex.coronas\\Documents\\Engine\\Engine.Core\\Engine.Core.csproj",
+        "packagesPath": "C:\\Users\\alex.coronas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alex.coronas\\Documents\\Engine\\Engine.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alex Coronas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alex.coronas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

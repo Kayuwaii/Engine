@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Engine.Base.Tests
 {
     [TestClass()]
-    public class GeneralTests
+	public class GeneralTests
     {
         [TestMethod()]
         public void getPercentTest()
@@ -24,7 +24,7 @@ namespace Engine.Base.Tests
         [TestMethod()]
         public void isEvenTest()
         {
-            Assert.IsTrue(4.isEven());
+            Assert.IsTrue(4.isEven() && !3.isEven());
         }
     }
 }

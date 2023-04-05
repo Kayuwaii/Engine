@@ -1,0 +1,12 @@
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\bin\Debug\net7.0\Engine.MySQL.deps.json
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\bin\Debug\net7.0\Engine.MySQL.dll
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\bin\Debug\net7.0\Engine.MySQL.pdb
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\Engine.MySQL.csproj.AssemblyReference.cache
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\Engine.MySQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\Engine.MySQL.AssemblyInfoInputs.cache
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\Engine.MySQL.AssemblyInfo.cs
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\Engine.MySQL.csproj.CoreCompileInputs.cache
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\Engine.MySQL.dll
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\refint\Engine.MySQL.dll
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\Engine.MySQL.pdb
+C:\Users\alex.coronas\Documents\Engine\Engine.MySQL\obj\Debug\net7.0\ref\Engine.MySQL.dll
